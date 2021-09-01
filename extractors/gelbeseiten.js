@@ -13,7 +13,7 @@ exports.detailsSelectors = detailsSelectors = {
   "address.zip": ".mod-TeilnehmerKopf__adresse-daten:nth-child(2)",
   "address.city": ".mod-TeilnehmerKopf__adresse-daten--noborder",
   phone: ".mod-TeilnehmerKopf__telefonnummer>span",
-  website: ".mod-Kontaktdaten__list-item>a[property=url]>span",
+  website: ".mod-Kontaktdaten__list-item.contains-icon-homepage>a",
   email: ".mod-Kontaktdaten__list-item>a[property=email]>span",
   branch: ".mod-BranchenUndStichworte:first-of-type",
   tags: ".mod-BranchenUndStichworte:last-of-type",
